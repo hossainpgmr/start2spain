@@ -1,0 +1,22 @@
+@use "./sections/navbar";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", serif;
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+}
+
+// partials importing
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}

@@ -1,3 +1,61 @@
+.nav-wrapper {
+  padding: 2rem;
+  margin: 0.5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: #f6f6f6 solid 1px;
+  border-radius: 32px;
+  box-shadow: rgba(0, 0, 0, 0.01) 0px 2px 2px;
+}
+.nav-wrapper .dark-logo a {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.nav-wrapper .navs ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.nav-wrapper .navs ul .nav-item {
+  padding: 0.5rem;
+  list-style: none;
+  color: #393939;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.nav-wrapper .cta {
+  background: #000;
+  padding: 0.8rem 1.5rem;
+  border-radius: 40px;
+}
+.nav-wrapper .cta .button {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", serif;
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=main.css.map */
