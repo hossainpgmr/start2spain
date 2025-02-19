@@ -1,4 +1,10 @@
+// partials importing
 @use "./sections/navbar";
+@use "./sections/hero-section";
+
+// font family included
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
+//font-family: "Parkinsans", serif;
 * {
   margin: 0;
   padding: 0;
@@ -9,13 +15,12 @@
   list-style: none;
 }
 
-// partials importing
-
 body {
   width: 100vw;
   height: 100vh;
   background: #fff;
 }
+// repetitive Tags
 .container {
   width: 1440px;
   margin: 0 auto;
