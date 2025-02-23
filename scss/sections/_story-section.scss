@@ -1,0 +1,66 @@
+.story-section {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10rem;
+  text-align: center;
+  .story-content {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    .profile-area {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .profile-name {
+        margin-top: 1.1rem;
+        color: #212121;
+        font-family: "parkinsans", serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+      }
+      .company-name {
+        color: #676666;
+        font-family: "poppins", serif;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+      }
+    }
+    .review-area {
+      position: relative;
+      display: inline-block;
+      padding: 1.8rem;
+      color: #fff;
+      background: #000;
+      text-align: left;
+      border-radius: 40px;
+
+      .review-title {
+        font-family: "Parkinsans", serif;
+        font-size: 2.2rem;
+        font-weight: 600;
+        line-height: 2.5rem;
+      }
+      .review-detail {
+        width: 600px;
+        margin-top: 1.5rem;
+        color: #a5a5a5;
+        font-family: "Parkinsans", serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.8rem;
+      }
+    }
+  }
+  .story-gradient {
+    position: absolute;
+    bottom: -10rem;
+    left: 0;
+    z-index: -1;
+  }
+}
