@@ -1,18 +1,27 @@
+nav {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0.5rem;
+  z-index: 1;
+  width: 100%;
+}
 .nav-wrapper {
   padding: 1.5rem;
-  margin: 0.5rem 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: #f6f6f6 solid 1px;
   border-radius: 32px;
-  box-shadow: rgba(0, 0, 0, 0.01) 0px 2px 2px;
+  background: #ffffff5e;
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
   .dark-logo a {
     color: #000;
     font-size: 2rem;
     font-weight: 600;
   }
-  .navs ul {
+  .navs {
     display: flex;
     justify-content: center;
     align-items: center;
