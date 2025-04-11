@@ -5,7 +5,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/main.css">
-        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Start2spain</title>
     </head>
 
     <body>
@@ -128,9 +131,113 @@
                     </div>
                 </div>
             </div>
+            <!-- faq questions section area-->
+            <div class="container">
+                <div class="faq-section">
+                    <div class="faq-header">
+                        <p class="slogan">FAQ</p>
+                        <h2 class="title">Frequently Asked Questions</h2>
+                    </div>
+                    <div class="faq-wrapper">
+                        <div class="faq ">
+                            <button class="accordian">
+                                <p>what is it ?</p>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="pannel">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum a
+                                    consequatur
+                                    adipisci quasi, dignissimos at quae optio error praesentium doloremque laborum eos
+                                    animi
+                                    officiis id placeat neque voluptas. Sit.lorem25 Lorem ipsum dolor, sit amet
+                                    consectetur adipisicing elit. Deleniti tempora, quibusdam nihil corporis magni nemo.
+                                    Alias sequi officia sunt quas amet aliquam ex deserunt debitis! </p>
+                            </div>
+                        </div>
+                        <div class="faq">
+                            <button class="accordian">
+                                <p>what is it ?</p>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="pannel">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum a
+                                    consequatur
+                                    adipisci quasi, dignissimos at quae optio error praesentium doloremque laborum eos
+                                    animi
+                                    officiis id placeat neque voluptas. Sit.lorem25 Lorem ipsum dolor, sit amet
+                                    consectetur adipisicing elit. Deleniti tempora, quibusdam nihil corporis magni nemo.
+                                    Alias sequi officia sunt quas amet aliquam ex deserunt debitis! </p>
+                            </div>
+                        </div>
+                        <div class="faq">
+                            <button class="accordian">
+                                <p>what is it ?</p>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="pannel">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum a
+                                    consequatur
+                                    adipisci quasi, dignissimos at quae optio error praesentium doloremque laborum eos
+                                    animi
+                                    officiis id placeat neque voluptas. Sit.lorem25 Lorem ipsum dolor, sit amet
+                                    consectetur adipisicing elit. Deleniti tempora, quibusdam nihil corporis magni nemo.
+                                    Alias sequi officia sunt quas amet aliquam ex deserunt debitis! </p>
+                            </div>
+                        </div>
+                        <div class="faq">
+                            <button class="accordian">
+                                <p>what is it ?</p>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="pannel">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum a
+                                    consequatur
+                                    adipisci quasi, dignissimos at quae optio error praesentium doloremque laborum eos
+                                    animi
+                                    officiis id placeat neque voluptas. Sit.lorem25 Lorem ipsum dolor, sit amet
+                                    consectetur adipisicing elit. Deleniti tempora, quibusdam nihil corporis magni nemo.
+                                    Alias sequi officia sunt quas amet aliquam ex deserunt debitis! </p>
+                            </div>
+                        </div>
+                        <div class="faq">
+                            <button class="accordian">
+                                <p>what is it ?</p>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="pannel">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum a
+                                    consequatur
+                                    adipisci quasi, dignissimos at quae optio error praesentium doloremque laborum eos
+                                    animi
+                                    officiis id placeat neque voluptas. Sit.lorem25 Lorem ipsum dolor, sit amet
+                                    consectetur adipisicing elit. Deleniti tempora, quibusdam nihil corporis magni nemo.
+                                    Alias sequi officia sunt quas amet aliquam ex deserunt debitis! </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </main>
+        <script>
+            var acc = document.getElementsByClassName("accordian");
+            var i;
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    this.parentElement.classList.toggle("active");
+                    var pannel = this.nextElementSibling;
+                    if (pannel.style.display === "block") {
+                        pannel.style.display = "none";
+                    } else {
+                        pannel.style.display = "block";
 
+                    }
+                }
+                )
+            }
+        </script>
     </body>
 
 </html>
