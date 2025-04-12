@@ -273,7 +273,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  transition: 0.4s;
 }
 .accordian p {
   color: #2a2b35;
@@ -293,14 +292,14 @@ nav {
   background: #f1f7f5;
 }
 
-.pannel {
+.panel {
   width: 720px;
   padding: 0 1rem 2rem;
   background-color: #f1f7f5;
   overflow: hidden;
   display: none;
 }
-.pannel p {
+.panel p {
   color: #090909;
   font-size: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -317,6 +316,59 @@ nav {
 
 .faq.active {
   border: none;
+}
+
+.contact-section {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+#contact-form {
+  margin-top: 2rem;
+}
+#contact-form .input-item {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+#contact-form .input-item input,
+#contact-form .input-item textarea {
+  padding: 1rem;
+  border: #d9d9d9 1px solid;
+  outline: none;
+  border-radius: 0.5rem;
+  resize: none;
+}
+#contact-form .input-item input::placeholder,
+#contact-form .input-item textarea::placeholder {
+  color: #676666;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+#contact-form .input-item label {
+  color: #1e1e1e;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1rem;
+}
+#contact-form #Massage {
+  margin-bottom: 1.5rem;
+}
+#contact-form .submit-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: white;
+  background-color: #219281;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
 }
 
 * {
@@ -349,7 +401,7 @@ body {
 }
 
 .title {
-  margin-top: 1.2rem;
+  margin-top: 1rem;
   color: #212121;
   font-family: "Parkinsans", serif;
   font-size: 4rem;

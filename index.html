@@ -144,7 +144,7 @@
                                 <p>what is it ?</p>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </button>
-                            <div class="pannel">
+                            <div class="panel">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum a
                                     consequatur
                                     adipisci quasi, dignissimos at quae optio error praesentium doloremque laborum eos
@@ -154,12 +154,12 @@
                                     Alias sequi officia sunt quas amet aliquam ex deserunt debitis! </p>
                             </div>
                         </div>
-                        <div class="faq">
+                        <div class="faq ">
                             <button class="accordian">
                                 <p>what is it ?</p>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </button>
-                            <div class="pannel">
+                            <div class="panel">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum a
                                     consequatur
                                     adipisci quasi, dignissimos at quae optio error praesentium doloremque laborum eos
@@ -169,12 +169,12 @@
                                     Alias sequi officia sunt quas amet aliquam ex deserunt debitis! </p>
                             </div>
                         </div>
-                        <div class="faq">
+                        <div class="faq ">
                             <button class="accordian">
                                 <p>what is it ?</p>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </button>
-                            <div class="pannel">
+                            <div class="panel">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum a
                                     consequatur
                                     adipisci quasi, dignissimos at quae optio error praesentium doloremque laborum eos
@@ -184,12 +184,12 @@
                                     Alias sequi officia sunt quas amet aliquam ex deserunt debitis! </p>
                             </div>
                         </div>
-                        <div class="faq">
+                        <div class="faq ">
                             <button class="accordian">
                                 <p>what is it ?</p>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </button>
-                            <div class="pannel">
+                            <div class="panel">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum a
                                     consequatur
                                     adipisci quasi, dignissimos at quae optio error praesentium doloremque laborum eos
@@ -199,12 +199,12 @@
                                     Alias sequi officia sunt quas amet aliquam ex deserunt debitis! </p>
                             </div>
                         </div>
-                        <div class="faq">
+                        <div class="faq ">
                             <button class="accordian">
                                 <p>what is it ?</p>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </button>
-                            <div class="pannel">
+                            <div class="panel">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum a
                                     consequatur
                                     adipisci quasi, dignissimos at quae optio error praesentium doloremque laborum eos
@@ -214,11 +214,44 @@
                                     Alias sequi officia sunt quas amet aliquam ex deserunt debitis! </p>
                             </div>
                         </div>
+
 
                     </div>
 
                 </div>
             </div>
+            <!-- contact section  -->
+            <section class="container">
+                <div class="contact-section">
+                    <div class="img-area">
+                        <img src="./assets/profile-2.png" alt="contact profile">
+                    </div>
+                    <div class="contact-area">
+                        <p class="slogan">live long</p>
+                        <h1 class="title">Contact Us</h1>
+                        <p class="section-detail">We guide you through every step, ensuring that your business plan
+                            meets
+                            innovation standards and that all personal
+                            documentation is in order, maximizing your chances of success.</p>
+
+                        <form action="" id="contact-form">
+                            <div class="input-item">
+                                <label for="Name">Name</label>
+                                <input type="text" placeholder="Your Name">
+                            </div>
+                            <div class="input-item">
+                                <label for="Email">Email</label>
+                                <input type="email" required placeholder="Your email (e.g. davidvilla@gmail.com)">
+                            </div>
+                            <div class="input-item">
+                                <label for="Massage">Massage</label>
+                                <textarea name="Massage" id="Massage" placeholder="Your Massage"></textarea>
+                            </div>
+                            <a href="#" class="submit-btn">Submit</a>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </main>
         <script>
             var acc = document.getElementsByClassName("accordian");
@@ -227,11 +260,11 @@
                 acc[i].addEventListener("click", function () {
                     this.classList.toggle("active");
                     this.parentElement.classList.toggle("active");
-                    var pannel = this.nextElementSibling;
-                    if (pannel.style.display === "block") {
-                        pannel.style.display = "none";
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
                     } else {
-                        pannel.style.display = "block";
+                        panel.style.display = "block";
 
                     }
                 }
