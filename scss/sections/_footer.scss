@@ -1,0 +1,29 @@
+// footer banner styling
+.banner {
+  position: relative;
+  .banner-texts {
+    display: flex;
+    position: absolute;
+    top: 42px;
+    .btext {
+      margin-left: 2rem;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 36px;
+      font-weight: 300;
+      line-height: 42px;
+      letter-spacing: 1.5rem;
+    }
+    #text1 {
+      transform: rotate(2deg);
+    }
+    #text2 {
+      transform: rotate(2deg);
+    }
+    #text3 {
+      transform: rotate(-5deg);
+    }
+    
+  }
+}
+// footer link and address styling
