@@ -1,0 +1,14 @@
+.client-area {
+  display: flex;
+  justify-content: space-between;
+  margin: 8rem 0;
+  #client2 {
+    transform: rotate(12deg);
+  }
+  #client3 {
+    transform: rotate(-5deg);
+  }
+  #client4 {
+    transform: rotate(9deg);
+  }
+}

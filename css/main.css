@@ -371,6 +371,21 @@ nav {
   padding: 1rem 2rem;
 }
 
+.client-area {
+  display: flex;
+  justify-content: space-between;
+  margin: 8rem 0;
+}
+.client-area #client2 {
+  transform: rotate(12deg);
+}
+.client-area #client3 {
+  transform: rotate(-5deg);
+}
+.client-area #client4 {
+  transform: rotate(9deg);
+}
+
 * {
   margin: 0;
   padding: 0;
