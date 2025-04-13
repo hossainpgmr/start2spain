@@ -413,6 +413,101 @@ nav {
   transform: rotate(-5deg);
 }
 
+.footer-area {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#item-title {
+  color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  margin-top: 0.5rem;
+}
+
+.address-area .address {
+  max-width: 280px;
+  color: #676666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin: 1rem 0;
+}
+
+.link-area {
+  display: flex;
+  gap: 5rem;
+}
+.link-area .listed-link > ul > li {
+  margin-top: 1.5rem;
+}
+.link-area .listed-link > ul > li .list-item {
+  color: #212121;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+.link-area .social-link > .social-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.link-area .social-link > .social-group .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  color: #fff;
+  background-color: #219281;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.link-area .social-link > .social-group .icon .fa-brands {
+  font-size: 1.2rem;
+}
+.link-area .social-link > .social-stamp {
+  margin-top: 0.8rem;
+  color: rgba(33, 33, 33, 0.7843137255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.copyright-area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid #e5e5e5;
+}
+.copyright-area .copyright {
+  color: #676666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+.copyright-area .condition {
+  display: flex;
+  gap: 2rem;
+}
+.copyright-area .condition a {
+  color: #676666;
+}
+.copyright-area .condition a p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
 * {
   margin: 0;
   padding: 0;
